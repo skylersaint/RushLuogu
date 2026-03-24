@@ -1,8 +1,9 @@
-#include "cp.hpp"
+#include <bits/stdc++.h>
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+int main()
+{
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 
     return 0;
 }
