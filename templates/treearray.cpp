@@ -14,7 +14,7 @@ void add(int x, int k)
 int query(int x)
 {
     int sum = 0;
-    for (; x <= n; x -= lowbit(x))
+    for (; x > 0; x -= lowbit(x))
     {
         sum += tree[x];
     }
